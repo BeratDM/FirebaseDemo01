@@ -12,6 +12,7 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://testproject01-aa1b0-default-rtdb.europe-west1.firebasedatabase.app/'
 })
 
+#Realtime Database (not FireStore)
 #Save data
 ref = db.reference('py/')
 users_ref = ref.child('users')
